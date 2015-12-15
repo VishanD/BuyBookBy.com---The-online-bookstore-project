@@ -1,0 +1,169 @@
+.header
+{
+	position: absolute;
+	top:-3%;
+}
+
+.topnavigationBar
+{
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	height: 15%;
+	width: 80%;
+}
+
+body
+{ 
+	background-image:url("../images/book.jpg");
+	background-attachment: fixed;
+	background-size:100%;
+	background-position: center;
+	
+}
+
+
+.navigationBar1
+{	
+	border:solid 1px black;	/*edit this long style*/
+	border-radius:13px;
+	width: 98%;
+	position: absolute;
+	top: 20%;
+	
+	
+}
+
+
+nav.navBar1
+{
+	padding: 8px;	
+}
+
+	
+a.link1:link
+{
+	color:#001A66;
+	font-family:sans-serif;
+	font-size:15px;
+	text-align:center;
+	text-decoration:none;
+	padding:25px;
+}
+
+
+a.link1:visited
+{
+	color:#001A66;
+	font-family:sans-serif;
+	font-size:15px;
+	text-align:center;
+	text-decoration:none;
+	padding:25px;
+}
+
+
+a.link1:hover
+{
+	color:#33CCFF;
+	font-family:sans-serif;
+	font-size:15px;
+	text-align:center;
+	text-decoration:none;
+	padding:25px;
+}
+
+
+a.link2:link
+{
+	color:#001A66;
+	font-family:sans-serif;
+	font-size:12px;
+	/*text-align:center;*/
+	text-decoration:none;
+	padding:10px;
+}
+
+
+a.link2:visited
+{
+	color:#001A66;
+	font-family:sans-serif;
+	font-size:12px;
+	/*text-align:center;*/
+	text-decoration:none;
+	padding:10px;
+}
+
+
+a.link2:hover
+{
+	color:#33CCFF;
+	font-family:sans-serif;
+	font-size:12px;
+	/*text-align:center;*/
+	text-decoration:none;
+	padding:10px;
+}
+
+
+.SearchButton
+{
+	color:#001A66;
+	font-family:sans-serif;
+	background-color: white;
+	font-size:14px ;
+	border-radius: 10px;
+}
+
+
+.searchText
+{
+	width:320px ;
+	border-radius:8px;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+
+#Searchform
+{
+	position: absolute;
+	left : 65%;
+	top: 21%;
+}
+
+
+.standardFont		/*use this for all normal text formatting that is not in a <p>*/
+{
+	font-family:sans-serif;
+	color:#001A66;
+	font-size:13px; 
+}
+
+
+p
+{
+	font-family:sans-serif;
+	color:#001A66;
+	font-size:15px; 
+	text-align:justify;
+}
+
+
+a
+{
+	font-family:sans-serif;
+	color:#001A66;
+}
+
+
+h1,h2,h3,h4
+{
+	font-family:sans-serif;
+	color:#001A66;
+}
+.catergorylink
+{
+	text-decoration: none;
+}
