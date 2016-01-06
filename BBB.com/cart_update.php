@@ -1,7 +1,12 @@
+
+
+
 <?php
+// inorder to prevent the error msg
 	error_reporting(E_ERROR | E_PARSE);
 	session_start();
 	include_once("config.php");
+
 
 //empty cart by distroying current session
 if(isset($_GET["emptycart"]) && $_GET["emptycart"]==1)
